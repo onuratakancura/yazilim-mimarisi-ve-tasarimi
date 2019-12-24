@@ -1,1 +1,1 @@
-# yazilim-mimarisi-ve-tasarimi
+# Yazilim Mimarisi ve Tasarimi
