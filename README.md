@@ -5,11 +5,11 @@
 - Builder (İnşaatçı) tasarım deseni creational grubununa ait, biden fazla parçadan oluşan nesnelerin üretilmesinden sorumlu bir tasarım desenidir.
 - Bazı nesneler birden fazla nesnenin birleşmesinden(bazı işlemleri yapması sonucu) oluşabilir. Zamanla bu ana nesneyi oluşturan nesnelerin yapısı değişebilir, bu nesnelerin oluşturulması karışık bir hal alabilir veya bu nesnelere başka nesneler de eklenebilir. Builder tasarım deseni bu gibi durumlarda genişletilebilirliği sağlamak ve kod karmaşıklığını engellemek için kullanılır. Builder tasarım deseninde bu nesnelerin oluşturulması Builder denilen sınıfların sorumluluğundadır. Client sadece oluşturulacak nesne türünü belirterek ana nesneyi oluşturan nesnelerin oluşturulmasıyla ilgilenmez. Abstract factory tasarım kalıbı ile benzer bir yapısı vardır. Aralarındaki fark builder tasarım deseni birden fazla nesnenin birleşmesinden oluşan nesnelerin üretilmesinden sorumludur.
 
-![Image of Class](builderuml.png)
+![Image of Class](https://github.com/onuratakancura/yazilim-mimarisi-ve-tasarimi/blob/master/Yazilim-Mimarisi-ve-Tasarimi/builderuml.png)
 
 - Örneğin Marka, Model ve Lastik özellikleri olan bir araba nesnemiz olsun. Bu araba nesnemizin özelliklerinin farklı değerler alması ile farklı özelliklerde araba nesnesi üretebiliriz. Builder tasarım deseni ile bu senaryoyu gerçekleştirelim. Uygulamamızın class diyagramı aşağıdadır.
 
-![Image of Class](diagramBuilderDeseni.png)
+![Image of Class](https://github.com/onuratakancura/yazilim-mimarisi-ve-tasarimi/blob/master/Yazilim-Mimarisi-ve-Tasarimi/diagramBuilderDeseni.png)
 
 İlk önce Araba nesnemizi oluşturuyoruz.
 
@@ -132,13 +132,13 @@ class Program
 - Command design pattern (komut tasarım deseni), yapılmak istenilen işlemlerin nesneye dönüştürülüp başka bir nesne tarafından bu işlemlerin tetiklenmesi şeklindedir. Command tasarım deseninde, işlem ve işlemin tetiklenmesi yapıları birbirinden ayrılmış olur. İşlemi yapacak nesnenin birden fazla olması durumunda işlemlerin sırayla çalıştırılabilinmesini sağlamış oluruz ve aynı işlem nesnelerini uygulamanın birden fazla yerinde kullanabilir oluruz. 
 
 
-![Image of Class](commandUML.jpg)
+![Image of Class](https://github.com/onuratakancura/yazilim-mimarisi-ve-tasarimi/blob/master/Yazilim-Mimarisi-ve-Tasarimi/CommandUML.jpg)
 
 Örneğin kişi nesnemiz olsun ve bu nesnemiz için ekle ve sil işlemlerimiz olsun. (Bu senaryoda kişi nesnemizin desen ile bir alakası yoktur sadece örnek olması açısından uygulamaya eklenecektir.)
 
 Uygulamamızın class diyagramı aşağıdadır.
 
-![Image of Class](CommandDiagram.jpg)
+![Image of Class](https://github.com/onuratakancura/yazilim-mimarisi-ve-tasarimi/blob/master/Yazilim-Mimarisi-ve-Tasarimi/CommandDiagram.jpg)
 
 
 İlk önce kisi nesnemizi oluşturalım.
